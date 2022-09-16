@@ -1,0 +1,61 @@
+Features:
+pet adoption agency
+rescue options
+care options
+options to find them caring freinds who are a good match for them.
+
+
+
+Brainstorming
+pet 
+adoption 
+agency
+rescue
+care  
+animals 
+find
+caring 
+freinds
+good 
+match
+
+
+Table Ideas
+
+pets - All the details about the animal
+
+rescues - ALl the details about the rescue
+
+treatments - all the details about the care they have received
+
+needs - The details about the animals behavior profile for best match to a person
+
+matches - a boolean to give likes or hearts to a specific pet
+
+
+
+Tables:
+
+pets
+    pet_name varchar(24) - name of animal limit 24 characters
+    pet_breed varchar(24) - name of breed limit 24 characters
+    pet_age  - name of user limit 24 characters
+
+rescues
+    rescue_date timestamp (date the animal was rescued)
+    recue_location varchar(100) - adress, city, state, zip
+    rescue_condition varchar(300) - what condition were they in
+
+treatments
+    treatment_date timestamp (date the animal was treated)
+    procedure varchar(300) - medical procedure that took place
+    assessment varchar(300) - outcome of medical procedure
+
+needs
+    food_type varchar(100) - specific dietary requirements
+    personality varchar(300) - who they are characterwise
+    social varchar(300) - solo, groups, do they like other animals
+    health_needs varchar(300) - what are their specific health needs
+
+matches
+    hearts	boolean	- true or false
